@@ -47,7 +47,7 @@ while simulation:
             a -= 1
         if pg.mouse.get_pressed()[0]:
             px, py = pg.mouse.get_pos()
-            W, H = px + a + 10, py + a + 10
+            W, H = px + a + 50, py + a + 50
         if e.type == pg.VIDEORESIZE:
             W, H = e.w, e.h
 
